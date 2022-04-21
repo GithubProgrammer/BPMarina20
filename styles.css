@@ -1,0 +1,23 @@
+  
+@font-face {
+  font-family: "Sassoon Infant Rg Bold";
+  src: url('webFonts/SassoonInfantRgBold/font.woff2') format('woff2'), url('webFonts/SassoonInfantRgBold/font.woff') format('woff');
+  font-feature-settings: "ss14";
+}
+
+@font-face {
+  font-family: "Sassoon Infant Rg Regular";
+  src: url('webFonts/SassoonInfantRgRegular/font.woff2') format('woff2'), url('webFonts/SassoonInfantRgRegular/font.woff') format('woff');
+  font-feature-settings: "ss14";
+}
+
+@font-face {
+  font-family: "Sassoon Infant Md";
+  src: url('webFonts/SassoonInfantMd-Medium/SassoonInfantMd-Medium.woff2') format('woff2'), url('webFonts/SassoonInfantMd-Medium/SassoonInfantMd-Medium.woff') format('woff');
+  font-feature-settings: "ss14";
+}
+
+*{
+	font-family: "Sassoon Infant Rg Regular";
+	font-feature-settings: "ss14";
+}

@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"t1_a03_l03_litriu_atlas_1", frames: [[288,311,27,27],[317,311,16,16],[0,311,73,61],[75,311,69,57],[146,311,69,57],[217,311,69,57],[0,0,559,309]]}
+		{name:"t2_a01_l02_litriu_atlas_1", frames: [[288,311,27,27],[317,311,16,16],[0,311,73,61],[75,311,69,57],[146,311,69,57],[217,311,69,57],[0,0,559,309]]}
 ];
 
 
@@ -28,49 +28,49 @@ lib.ssMetadata = [
 
 
 (lib.Bitmap1 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap2 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap5 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap6 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap7 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap9 = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.LitriuWhistle = function() {
-	this.initialize(ss["t1_a03_l03_litriu_atlas_1"]);
+	this.initialize(ss["t2_a01_l02_litriu_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -1865,7 +1865,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["t1_a03_l03_litriu_atlas_1"],1);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["t2_a01_l02_litriu_atlas_1"],1);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1,0,0,1,-7.7,-7.7)).s().p("AhNBNIAAiaICbAAIAACag")
 	}.bind(this);
@@ -1892,7 +1892,7 @@ if (reversed == null) { reversed = false; }
 
 	// Layer_2
 	this.shape = new cjs.Shape();
-	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["t1_a03_l03_litriu_atlas_1"],0);
+	var sprImg_shape = cjs.SpriteSheetUtils.extractFrame(ss["t2_a01_l02_litriu_atlas_1"],0);
 	sprImg_shape.onload = function(){
 		this.shape.graphics.bf(sprImg_shape, null, new cjs.Matrix2D(1,0,0,1,-13.3,-13.3)).s().p("AiECFIAAkJIEJAAIAAEJg")
 	}.bind(this);
@@ -5672,7 +5672,7 @@ p.nominalBounds = new cjs.Rectangle(-607.9,-223.5,987.9,476.4);
 
 
 // stage content:
-(lib.t1_a03_l03_litriu = function(mode,startPosition,loop,reversed) {
+(lib.t2_a01_l02_litriu = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -5804,7 +5804,7 @@ if (reversed == null) { reversed = false; }
 				that.mcTables.gotoAndStop(that.cur_question);
 				that.mcImages.gotoAndStop(that.cur_question);
 			}
-		
+			that.currentWord = 1;
 			that.mcKeyboard.visible = false;
 			that.btPrev.visible = true;
 			//that.setButton("prev", true);
@@ -5842,6 +5842,7 @@ if (reversed == null) { reversed = false; }
 				that.mcTables.gotoAndStop(that.cur_question);
 				that.mcImages.gotoAndStop(that.cur_question);
 			}
+			that.currentWord = 1;
 			that.mcKeyboard.visible = false;
 			that.btNext.visible = true;
 			//that.setButton("next", true);
@@ -6059,12 +6060,12 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/t1_a03_l03_litriu_atlas_1.png?1649674406513", id:"t1_a03_l03_litriu_atlas_1"},
-		{src:"sounds/LitriuSoundWrong.mp3?1649674407299", id:"LitriuSoundWrong"},
-		{src:"sounds/LitriuSoundCorrect.mp3?1649674407299", id:"LitriuSoundCorrect"},
-		{src:"sounds/LitriuSoundCar.mp3?1649674407299", id:"LitriuSoundCar"},
-		{src:"sounds/Sound2.mp3?1649674407299", id:"Sound2"},
-		{src:"sounds/Sound1.mp3?1649674407299", id:"Sound1"}
+		{src:"images/t2_a01_l02_litriu_atlas_1.png?1650515089217", id:"t2_a01_l02_litriu_atlas_1"},
+		{src:"sounds/LitriuSoundWrong.mp3?1650515089508", id:"LitriuSoundWrong"},
+		{src:"sounds/LitriuSoundCorrect.mp3?1650515089508", id:"LitriuSoundCorrect"},
+		{src:"sounds/LitriuSoundCar.mp3?1650515089508", id:"LitriuSoundCar"},
+		{src:"sounds/Sound2.mp3?1650515089508", id:"Sound2"},
+		{src:"sounds/Sound1.mp3?1650515089508", id:"Sound1"}
 	],
 	preloads: []
 };
